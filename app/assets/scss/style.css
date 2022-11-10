@@ -1,0 +1,279 @@
+/**
+ * @Main scss for (Template/Project Name)
+ * @project     - Dartera Agency
+ * @author      - 
+ * @created_by  - kawsar bin siraj
+ * @created_at  - 
+ * @modified_by -
+ */
+/* fonts import */
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap");
+/* fonts import -END */
+/* reset, root */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: 'Space Grotesk', sans-serif !important; }
+
+:root {
+  --indigo_dye: #003A75;
+  --cyan: #00BAEB;
+  --cyan_light: #DAF7FF;
+  --lapis_lazuli: #015EA5;
+  --lapis_lazuli_light: #E0F2FF;
+  --cultured_white: #DFDFDF;
+  --indigo_dye_light: #E8F3FF;
+  --flourescent_blue: #00F5EB;
+  --thristle_purple: #D1BCE3;
+  --flourescent_blue_light: #E1FFFE;
+  --thristle_purple_light: #F8EFFF;
+  --gray_1: #002448;
+  --gray_2: #405A75;
+  --gray_3: #57738F;
+  --gray_4: #889FB7;
+  --gray_5: #D2DBE2;
+  --gray_6: #EDF1F4;
+  --gray_7: #F3F6F8;
+  --info: #21AFFF;
+  --success: #1DE993;
+  --danger: #FF5252;
+  --danger_light: #FFEBEB;
+  --info_shade: #E5F6FF;
+  --success_shade: #D8FFEE;
+  --warning_shade: #FEFFD9; }
+
+/* reset, root - END */
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1140px;
+    padding: 0 15px; } }
+
+/* helper , base classes */
+.text-indigo_dye {
+  color: var(--indigo_dye); }
+
+.text-cyan {
+  color: var(--cyan); }
+
+.text-cyan_light {
+  color: var(--cyan_light); }
+
+.text-lapis_lazuli {
+  color: var(--lapis_lazuli); }
+
+.text-lapis_lazuli_light {
+  color: var(--lapis_lazuli_light); }
+
+.text-cultured_white {
+  color: var(--cultured_white); }
+
+.text-indigo_dye_light {
+  color: var(--indigo_dye_light); }
+
+.text-flourescent_blue {
+  color: var(--flourescent_blue); }
+
+.text-thristle_purple {
+  color: var(--thristle_purple); }
+
+.text-flourescent_blue_light {
+  color: var(--flourescent_blue_light); }
+
+.text-thristle_purple_light {
+  color: var(--thristle_purple_light); }
+
+.text-gray_1 {
+  color: var(--gray_1); }
+
+.text-gray_2 {
+  color: var(--gray_2); }
+
+.text-gray_3 {
+  color: var(--gray_3); }
+
+.text-gray_4 {
+  color: var(--gray_4); }
+
+.text-gray_5 {
+  color: var(--gray_5); }
+
+.text-gray_6 {
+  color: var(--gray_6); }
+
+.text-gray_7 {
+  color: var(--gray_7); }
+
+.text-success {
+  color: var(--success); }
+
+.text-danger {
+  color: var(--danger); }
+
+.text-danger_light {
+  color: var(--danger_light); }
+
+.text-info_shade {
+  color: var(--info_shade); }
+
+.text-success_shade {
+  color: var(--success_shade); }
+
+.text-warning_shade {
+  color: var(--warning_shade); }
+
+.bg-indigo_dye {
+  background-color: var(--indigo_dye); }
+
+.bg-cyan {
+  background-color: var(--cyan); }
+
+.bg-cyan_light {
+  background-color: var(--cyan_light); }
+
+.bg-lapis_lazuli {
+  background-color: var(--lapis_lazuli); }
+
+.bg-lapis_lazuli_light {
+  background-color: var(--lapis_lazuli_light); }
+
+.bg-cultured_white {
+  background-color: var(--cultured_white); }
+
+.bg-indigo_dye_light {
+  background-color: var(--indigo_dye_light); }
+
+.bg-flourescent_blue {
+  background-color: var(--flourescent_blue); }
+
+.bg-thristle_purple {
+  background-color: var(--thristle_purple); }
+
+.bg-flourescent_blue_light {
+  background-color: var(--flourescent_blue_light); }
+
+.bg-thristle_purple_light {
+  background-color: var(--thristle_purple_light); }
+
+.bg-gray_1 {
+  background-color: var(--gray_1); }
+
+.bg-gray_2 {
+  background-color: var(--gray_2); }
+
+.bg-gray_3 {
+  background-color: var(--gray_3); }
+
+.bg-gray_4 {
+  background-color: var(--gray_4); }
+
+.bg-gray_5 {
+  background-color: var(--gray_5); }
+
+.bg-gray_6 {
+  background-color: var(--gray_6); }
+
+.bg-gray_7 {
+  background-color: var(--gray_7); }
+
+.bg-success {
+  background-color: var(--success); }
+
+.bg-danger {
+  background-color: var(--danger); }
+
+.bg-danger_light {
+  background-color: var(--danger_light); }
+
+.bg-info_shade {
+  background-color: var(--info_shade); }
+
+.bg-success_shade {
+  background-color: var(--success_shade); }
+
+.bg-warning_shade {
+  background-color: var(--warning_shade); }
+
+.fs-10 {
+  font-size: 10px;
+  line-height: 18px; }
+
+.fs-12 {
+  font-size: 12px;
+  line-height: 20px; }
+
+.fs-13 {
+  font-size: 13px;
+  line-height: 20px; }
+
+.fs-14 {
+  font-size: 14px;
+  line-height: 22px; }
+
+.fs-30 {
+  font-size: 30px;
+  line-height: 38px; }
+
+.fs-36 {
+  font-size: 36px;
+  line-height: 42px; }
+
+.fs-48 {
+  font-size: 48px;
+  line-height: 54px; }
+
+.fw-medium {
+  font-weight: 500; }
+
+.fw-semi-bold {
+  font-weight: 600; }
+
+.box-shadow {
+  box-shadow: 0px 15px 40px rgba(22, 8, 49, 0.1); }
+
+.box-shadow2 {
+  box-shadow: 0px 7px 40px rgba(0, 0, 0, 0.05); }
+
+.radius-10 {
+  border-radius: 10px; }
+
+.radius-16 {
+  border-radius: 16px; }
+
+/* helper , base classes  - END*/
+/* css for navigation*/
+.navbar {
+  border-bottom: 1px solid #e5e5e5; }
+  .navbar .navbar-nav:not(.navbar-auth) .nav-item .nav-link {
+    color: var(--bs-dark);
+    font-weight: 500;
+    transition: all 0.3s;
+    position: relative;
+    border-radius: 0; }
+    .navbar .navbar-nav:not(.navbar-auth) .nav-item .nav-link::before {
+      content: "";
+      display: block;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: calc(100% - 1px);
+      width: 100%;
+      border-bottom: 2px solid transparent; }
+    .navbar .navbar-nav:not(.navbar-auth) .nav-item .nav-link:hover, .navbar .navbar-nav:not(.navbar-auth) .nav-item .nav-link.active {
+      color: var(--clr-red); }
+      .navbar .navbar-nav:not(.navbar-auth) .nav-item .nav-link:hover::before, .navbar .navbar-nav:not(.navbar-auth) .nav-item .nav-link.active::before {
+        border-bottom-color: var(--clr-red); }
+  .navbar .navbar-auth .btn-signIn:hover {
+    color: var(--clr-red) !important; }
+  .navbar .navbar-auth .btn-signUp:hover {
+    padding-left: 20px !important;
+    padding-right: 20px !important; }
+
+/* css for navigation - END*/
+
+/*# sourceMappingURL=style.css.map */
